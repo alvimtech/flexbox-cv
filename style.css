@@ -1,0 +1,126 @@
+body{
+    background: #282a29;
+    color:white;
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    padding: 10px 20px;
+    background: #bd844e;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    color:#bd844e;
+    font-size: 22px;
+    font-weight: 800;
+}
+.header .menu ul{
+    display: flex;
+}
+.header .menu ul li{
+    list-style-type: none;
+    padding: 10px
+}
+/* Home */
+.home{
+    padding: 75px 0px;
+    background:#161618;
+    background-image: url('./imgs/bg.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.home h1{
+    font-size: 50px;
+    margin:30px 0px;
+    font-weight: 800;
+}
+/* ABOUT */
+.about{
+    padding: 35px 0;
+}
+.about .container{
+    display: flex;
+}
+.about .about-img{
+    width: 45%;
+    padding: 15px;
+}
+.about img{
+    max-width: 100%;
+}
+.about .about-txt{
+    width: 55%;
+    padding: 0 15px;
+}
+.about .about-txt h2, .about .about-txt h4 {
+    margin: 10px 0;
+}
+.about .about-txt p{
+    line-height: 22px;
+    font-size: 12px;
+    color:#aaa
+}
+.about .about-skills{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:#2c2e2d;
+}
+.about .about-skills .item{
+    width: 33.3%;
+    background: ;
+    
+}
+.about .about-skills .item h5{
+    margin:10px 0px;
+}
+.about .about-skills .item span{
+    color:#bd844e;
+}
+
+/* SERVICES */
+.services h2, .services h4 {
+    margin: 10px 0;
+}
+.services .services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services .services-list .item{
+    width: 28%;
+    background: #2c2e2d;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.services .services-list .item span{
+    color: #bd844e;
+    font-size: 30px;
+}
+.services .services-list .item h5{
+    font-size: 16px;
+    font-weight: 800;
+}
+.services .services-list .item p{
+    font-size:12px;
+    line-height: 18px;
+    color: #aaa
+}
